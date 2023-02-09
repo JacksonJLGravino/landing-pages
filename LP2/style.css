@@ -1,0 +1,307 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --Gainsboro: #D9D9D9;
+  --Granite-Gray: #5F5F5F;
+  --Black: #000000;
+  --Maximum-Yellow-Red: #F7BF50;
+  --Froral-White: #FAF6ED;
+
+  --Headline: 'Poppins', sans-serif;
+  --Text: 'Roboto', sans-serif;
+}
+
+header{
+  background: var(--Froral-White);
+  border-bottom: 1px solid var(--Maximum-Yellow-Red);
+  display: flex;
+  justify-content: center;
+}
+
+.logo{
+  margin-block: 8px;
+  padding: 16px 125px;
+  font-family: var(--Headline);
+  font-size: 36px;
+  color: var(--Maximum-Yellow-Red);
+  border: 1px dotted var(--Granite-Gray);
+}
+
+.section-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  background: var(--Black);
+  flex-wrap: wrap;
+  padding-block: 80px;
+}
+
+.section-1 > div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-1 h2{
+  color: var(--Maximum-Yellow-Red);
+  text-shadow: 4px 4px 4px var(--Granite-Gray);
+  font-size: 64px;
+  font-family: var(--Headline);
+  width: 544px;
+  text-align: center;
+}
+
+.announcement{
+  max-width: 352px;
+  font-family: var(--Text);
+  color: var(--Gainsboro);
+  font-size: 20px;
+}
+
+.form h3{
+  font-family: var(--Headline);
+  color: var(--Froral-White);
+  font-size: 36px;
+}
+
+.form p{
+  font-family: var(--Text);
+  color: var(--Gainsboro);
+  font-size: 16px;
+  margin-top: 24px;
+}
+
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 48px;
+}
+
+form > div{
+  display: flex;
+  flex-direction: column;
+  color: var(--Gainsboro);
+}
+
+label{
+  font-family: var(--Text);
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+input{
+  width: 544px;
+  padding: 12px;
+  border-radius: 999px;
+  outline: none;
+  background: var(--Froral-White);
+  color: var(--Black);
+  border: none;
+}
+
+input:hover, input:focus{
+  background: var(--Gainsboro);
+}
+
+button{
+  background: var(--Maximum-Yellow-Red);
+  color: var(--Black);
+  padding: 24px 80px;
+  font-size: 24px;
+  font-family: var(--Headline);
+  margin-top: 80px;
+  border-radius: 999px;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover{
+  outline: 3px solid var(--Froral-White);
+  color: var(--Froral-White);
+}
+
+.section-2{
+  background: var(--Froral-White);
+  padding-block: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-2 h3{
+  font-size: 30px;
+  color: var(--Black);
+  font-family: var(--Headline);
+  text-align: center;
+}
+
+.benefits{
+  margin-top: 72px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  max-width: 1120px;
+  align-items: center;
+  justify-content: center;
+}
+
+.benefits > div{
+  max-width: 304px;
+  text-align: center;
+}
+
+.benefits h6{
+  margin-block: 24px;
+  font-size: 14px;
+  font-family: var(--Headline);
+  letter-spacing: 1.5px;
+  color: var(--Black);
+}
+
+.benefits p{
+  font-size: 14px;
+  font-family: var(--Text);
+  color: var(--Black);
+}
+
+.banner{
+  background: var(--Maximum-Yellow-Red);
+  padding-block: 48px;
+  border-block: 1px solid var(--Granite-Gray);
+  text-align: center;
+  font-family: var(--Headline);
+}
+
+.banner h3{
+  color: var(--Froral-White);
+  font-size: 36px;
+}
+
+.banner h2{
+  color: var(--Black);
+  font-size: 48px;
+  margin-top: 8px;
+}
+
+.promotion{
+  background: var(--Black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-block: 80px;
+}
+
+.promotion h2{
+  color: var(--Maximum-Yellow-Red);
+  font-family: var(--Headline);
+  font-size: 48px;
+}
+
+.promotion p{
+  color: var(--Gainsboro);
+  text-align: center;
+  max-width: 352px;
+  margin-top: 24px;
+  font-family: var(--Text);
+  font-size: 16px;
+}
+
+.promotion strong{
+  font-size: 20px;
+  color: var(--Gainsboro);
+  font-family: var(--Text);
+  margin-top: 32px;
+}
+
+.products{
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.product{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.product h6{
+  margin-top: 12px;
+  font-size: 14px;
+  font-family: var(--Headline);
+  letter-spacing: 1.5px;
+  color: var(--Gainsboro);
+}
+
+.product p{
+  font-family: var(--Text);
+  margin-top: 32px;
+  color: var(--Gainsboro);
+  font-size: 14px;
+}
+
+.circle{
+  height: 96px;
+  width: 96px;
+  border-radius: 50%;
+  background: var(--Maximum-Yellow-Red);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 50px;
+  left: 60px;
+}
+
+.circle h5{
+  font-size: 24px;
+  font-family: var(--Headline);
+  text-align: center;
+}
+
+.product-button{
+  font-size: 14px;
+  padding: 16px 42px;
+}
+
+footer{
+  background: var(--Granite-Gray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer > div{
+  padding-block: 80px;
+  width: 1120px;
+}
+
+.logo-2{
+  padding: 17px 120px;
+  border: 1px dotted var(--Froral-White);
+  color: var(--Froral-White);
+  font-size: 32px;
+  font-family: var(--Headline);
+  max-width: 352px;
+}
+
+footer p{
+  margin-top: 48px;
+  color: var(--Froral-White);
+  font-size: 16px;
+  font-family: var(--Text);
+}
