@@ -86,14 +86,14 @@ h2{
   margin-top: 16px;
 }
 
-.form h5{
+.form h6{
   font-family: var(--Headline);
   font-size: 18px;
   font-weight: 700;
   color: var(--Azure-X-11-Web-Color);
 }
 
-.form h5 span{
+.form h6 span{
   color: var(--Little-Boy-Blue);
 }
 
@@ -137,7 +137,8 @@ label{
   margin-bottom: 8px;
 }
 
-button{
+.btn{
+  width: 270px;
   padding: 25px 30px;
   background: var(--Little-Boy-Blue);
   font-family: var(--Text);
@@ -145,9 +146,10 @@ button{
   border: none;
   cursor: pointer;
   margin-top: 48px;
+  color: var(--Earie-Black);
 }
 
-button:hover{
+.btn:hover{
   outline: 2px solid var(--Gray-X-11-Gray);
 }
 
@@ -160,7 +162,7 @@ button:hover{
   color: var(--Earie-Black);
 }
 
-h6{
+strong{
   font-family: var(--Headline);
   font-weight: 700;
   font-size: 14px;
@@ -231,5 +233,9 @@ footer p{
 @media screen and (max-width: 960px) {
   .top > div{
     justify-content: center;
+  }
+
+  .form{
+    margin-top: 64px;
   }
 }

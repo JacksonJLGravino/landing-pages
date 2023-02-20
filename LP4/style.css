@@ -155,7 +155,7 @@ input:hover{
   width: 448px;
 }
 
-.card h6{
+.card strong{
   font-size: 14px;
   font-family: var(--Headline);
   color: var(--Earia-Black);

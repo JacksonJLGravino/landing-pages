@@ -48,7 +48,7 @@ header{
   justify-content: center;
 }
 
-.section-1 h2{
+.section-1 h1{
   color: var(--Maximum-Yellow-Red);
   text-shadow: 4px 4px 4px var(--Granite-Gray);
   font-size: 64px;
@@ -112,7 +112,8 @@ input:hover, input:focus{
   background: var(--Gainsboro);
 }
 
-button{
+.btn{
+  max-width: 352px;
   background: var(--Maximum-Yellow-Red);
   color: var(--Black);
   padding: 24px 80px;
@@ -124,9 +125,10 @@ button{
   border: none;
 }
 
-button:hover{
+.btn:hover{
   outline: 3px solid var(--Froral-White);
   color: var(--Froral-White);
+  background: var(--Maximum-Yellow-Red);
 }
 
 .section-2{
@@ -138,7 +140,7 @@ button:hover{
   justify-content: center;
 }
 
-.section-2 h3{
+.section-2 h4{
   font-size: 30px;
   color: var(--Black);
   font-family: var(--Headline);
@@ -160,12 +162,13 @@ button:hover{
   text-align: center;
 }
 
-.benefits h6{
+.benefits strong{
   margin-block: 24px;
   font-size: 14px;
   font-family: var(--Headline);
   letter-spacing: 1.5px;
   color: var(--Black);
+  display: block;
 }
 
 .benefits p{
@@ -217,10 +220,10 @@ button:hover{
   font-size: 16px;
 }
 
-.promotion strong{
-  font-size: 20px;
+.promotion h6{
+  font-size: 18px;
   color: var(--Gainsboro);
-  font-family: var(--Text);
+  font-family: var(--Headline);
   margin-top: 32px;
 }
 
@@ -239,12 +242,13 @@ button:hover{
   flex-direction: column;
 }
 
-.product h6{
+.product strong{
   margin-top: 12px;
   font-size: 14px;
   font-family: var(--Headline);
   letter-spacing: 1.5px;
   color: var(--Gainsboro);
+  display: block;
 }
 
 .product p{
