@@ -1,0 +1,222 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --Silver: #B9B9B9;
+  --Dim-Gray: #6E6E6E;
+  --Jet: #333333;
+  --Olivine: #B2BD5D;
+  --Anti-flash-White: #F0F0F0;
+
+  --Headline: 'Rubik', sans-serif;
+  --Text: 'Martel', serif;
+}
+
+
+h2, h3, h4, strong{
+  font-family: var(--Headline);
+  font-weight: 500;
+}
+
+h3{
+  font-size: 36px;
+}
+
+strong{
+  font-size: 14px;
+  letter-spacing: 1.5px;
+}
+
+p, label{
+  font-family: var(--Text);
+  font-weight: 400;
+}
+
+header{
+  background: var(--Anti-flash-White);
+  padding-block: 12px;
+  text-align: center;
+}
+
+.logo{
+  display: inline-block;
+  margin-inline: auto;
+  text-align: center;
+  padding: 16px 126px;
+  color: var(--Olivine);
+  border: 1px dashed var(--Olivine);
+}
+
+.section-1{
+  background-image: url(/img/fundo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  max-width: 1120px;
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  padding-block: 80px;
+  flex-wrap: wrap;
+}
+
+.info{
+  max-width: 544px;
+  color: var(--Anti-flash-White);
+  text-align: center;
+}
+
+.info h2{
+  font-size: 48px;
+  margin-bottom: 32px;
+}
+
+.info p{
+  font-size: 18px;
+}
+
+.form{
+  max-width: 544px;
+  text-align: center;
+}
+
+.form h3{
+  color: var(--Anti-flash-White);
+  margin-bottom: 48px;
+}
+
+.form div{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+label{
+  color: var(--Anti-flash-White);
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+#name, #email, #tel{
+  padding: 12px;
+  background: var(--Anti-flash-White);
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+
+#name:hover, #email:hover, #tel:hover{
+  background: var(--Silver);
+}
+
+button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 20px 60px;
+  background: var(--Olivine);
+  border: 1px solid var(--Jet);
+  color: var(--Jet);
+  font-size: 24px;
+  font-family: var(--Headline);
+  font-size: 500;
+  margin-inline: auto;
+  margin-top: 48px;
+}
+
+button:hover{
+  border-color: var(--Dim-Gray);
+  color: var(--Dim-Gray);
+}
+
+.section-2{
+  background: var(--Anti-flash-White);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-block: 80px;
+  border-bottom: 1px solid var(--Silver);
+}
+
+.section-2 h3{
+  color: var(--Jet);
+  text-align: center;
+}
+
+.section-2 h4{
+  margin-top: 48px;
+  color: var(--Olivine);
+  font-size: 30px;
+}
+
+.cards{
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: 352px;
+  height: 277px;
+  padding-inline: 20px;
+  padding-top: 40px;
+  border: 2px dashed var(--Dim-Gray);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--Dim-Gray);
+}
+
+.card i{
+  font-size: 64px;
+}
+
+.card strong{
+  margin-top: 32px;
+}
+
+.card p{
+  margin-top: 16px;
+}
+
+footer{
+  background: var(--Jet);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 80px;
+}
+
+footer > div{
+  width: 1120px;
+}
+
+.logo-2{
+  display: inline-block;
+  text-align: center;
+  padding: 16px 80px;
+  color: var(--Silver);
+  border: 1px dashed var(--Silver);
+}
+
+footer p{
+  margin-top: 32px;
+  color: var(--Silver);
+  font-size: 14px;
+}
