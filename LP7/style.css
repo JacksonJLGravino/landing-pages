@@ -1,0 +1,228 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --Silver: #B9B9B9;
+  --Dim-Gray: #6E6E6E;
+  --Jet: #333333;
+  --UCLA-Blue: #1872A4;
+  --Alice-Blue: #F2F7FA;
+  --Headline: 'Fira Mono', monospace;
+  --Text: 'Merriweather Sans', sans-serif;
+}
+
+.section-1 {
+  background: var(--Dim-Gray);
+  border-bottom: 10px solid var(--Jet);
+}
+
+.container{
+  display: flex;
+  max-width: 1120px;
+  margin-inline: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.info{
+  max-width: 640px;
+}
+
+.logo{
+  display: inline-block;
+  border: 1px solid var(--Jet);
+  font-size: 64px;
+  font-weight: 700;
+  font-family: var(--Headline);
+  padding: 8px 50px;
+  margin-top: 120px;
+}
+
+h2{
+  font-family: var(--Headline);
+  color: var(--Jet);
+  font-weight: 700;
+  font-size: 48px;
+  margin-top: 64px;
+}
+
+h2 span{
+  color: var(--Alice-Blue);
+}
+
+.info p{
+  color: var(--Jet);
+  font-family: var(--Text);
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 48px;
+}
+
+.form{
+  background: var(--Jet);
+  max-width: 448px;
+}
+
+.form h6{
+  margin-top: 64px;
+  margin-inline: 80px;
+  font-size: 18px;
+  color: var(--Alice-Blue);
+  font-family: var(--Headline);
+  font-weight: 700;
+}
+
+form{
+  padding-inline: 16px;
+  margin-top: 36px;
+}
+
+form > div{
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+}
+
+form > div > input{
+  padding: 12px;
+  border: none;
+  outline: none;
+  background: var(--Alice-Blue);
+}
+
+form > div > input:hover{
+  background: var(--Silver);
+}
+
+label{
+  color: var(--Alice-Blue);
+  margin-bottom: 8px;
+  font-family: var(--Text);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#btn{
+  margin-block: 64px;
+  text-align: center;
+  background: var(--UCLA-Blue);
+  color: var(--Alice-Blue);
+  padding: 14px 47px;
+  margin-inline: auto;
+  display: flex;
+  font-family: var(--Headline);
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#btn:hover{
+  color: var(--Silver);
+}
+
+.section-2{
+  background: var(--UCLA-Blue);
+  padding-block: 80px;
+}
+
+.center{
+  display: flex;
+  max-width: 1120px;
+  margin-inline: auto;
+}
+
+ul{
+  margin-left: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+ul li{
+  color: var(--Alice-Blue);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--Text);
+}
+
+.section-3{
+  background: var(--Alice-Blue);
+  padding-block: 80px;
+}
+
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1120px;
+  margin-inline: auto;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.card{
+  max-width: 352px;
+  height: 327px;
+  border: 1px solid var(--UCLA-Blue);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  padding-inline: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 48px;
+}
+
+.card strong{
+  margin-top: 16px;
+  color: var(--Jet);
+  font-family: var(--Headline);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.card p{
+  margin-top: 48px;
+  color: var(--Jet);
+  font-family: var(--Text);
+  font-size: 14px;
+  text-align: center;
+}
+
+footer{
+  background: var(--Silver);
+  padding-block: 80px;
+}
+
+footer > div{
+  max-width: 1120px;
+  display: flex;
+  flex-direction: column;
+  margin-inline: auto;
+}
+
+.logo-2{
+  border: 1px solid var(--UCLA-Blue);
+  color: var(--UCLA-Blue);
+  width: 256px;
+  text-align: center;
+  font-family: var(--Headline);
+  font-size: 36px;
+  font-weight: 700;
+  padding-block: 18px;
+}
+
+footer p{
+  margin-top: 40px;
+  font-size: 18px;
+  color: var(--UCLA-Blue);
+  font-family: var(--Text);
+}
+
