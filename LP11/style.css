@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --Silver: #B9B9B9;
+  --Dim-Gray: #6E6E6E;
+  --Jet: #333333;
+  --Khaki: #B0A48A;
+  --Isabelline: #F2EFEA;
+
+  --Headeline: 'Palanquin Dark', sans-serif;
+  --Text: 'Amiri', serif; ;
+}
+
+body{
+  background-image: url('img/fundo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section{
+  padding: 32px 16px;
+  text-align: center;
+  background: var(--Jet);
+  margin-block: 80px;
+  max-width: 544px;
+  margin-inline: auto;
+  border-radius: 8px;
+  box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.7);
+}
+
+
+header{
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  justify-content: center;
+}
+
+h3{
+  color: var(--Isabelline);
+  font-size: 36px;
+  font-family: var(--Headeline)
+}
+
+.texto{
+  display: flex;
+  margin-top: 64px;
+  gap: 32px;
+  margin-bottom: 48px;
+}
+
+.texto p{
+  font-family: var(--Text);
+  color: var(--Isabelline);
+  font-size: 18px;
+  text-align: left;
+}
+
+hr{
+  border-color: var(--Dim-Gray);
+  border-radius: 1px;
+}
+
+form{
+  margin-top: 48px;
+}
+
+
+
+label{
+  display: block;
+  text-align: left;
+  font-family: var(--Text);
+  color: var(--Isabelline);
+  font-size: 14px;
+}
+
+#name, #email{
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  outline: none;
+  border: none;
+  background: var(--Isabelline);
+}
+
+#name:hover, #email:hover{
+  background: var(--Silver);
+}
+
+#btn{
+  background: var(--Khaki);
+  padding: 8px 57px;
+  font-family: var(--Headeline);
+  color: var(--Jet);
+  border-radius: 8px;
+  font-size: 18px;
+  margin-top: 56px;
+  margin-bottom: 48px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#btn:hover{
+  color: var(--Isabelline) ;
+  background: var(--Dim-Gray);
+}
