@@ -1,0 +1,144 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --Silver: #B9B9B9;
+  --Dim-Gray: #6E6E6E;
+  --Black: #000000;
+  --Turquoise: #47D0BE;
+  --Ivory: #FFFEEC;
+  --Headline: 'Fredoka', sans-serif;
+  --Text: 'Varela Round', sans-serif;
+}
+
+header{
+  background: var(--Ivory);
+}
+
+.center{
+  max-width: 1120px;
+  margin-inline: auto;
+}
+
+a{
+  text-decoration: none;
+  font-family: var(--Headline);
+  font-weight: 600;
+  font-size: 64px;
+  color: var(--Dim-Gray);
+}
+
+main{
+  background-image: url('/img/brinquedos.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .center{
+  display: flex;
+  gap: 128px;
+  padding-block: 80px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info{
+  max-width: 544px;
+  color: var(--Ivory);
+}
+
+.info h3{
+  margin-bottom: 24px;
+  font-family: var(--Headline);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.info p{
+  margin-top: 24px;
+  font-family: var(--Text);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+
+.form{
+  max-width: 448px;
+  background: var(--Ivory);
+  padding: 32px 16px;
+}
+
+.form h5{
+  color: var(--Black);
+  font-weight: 600;
+  font-size: 24px;
+  font-family: var(--Headline);
+  margin-bottom: 64px;
+}
+
+.form div{
+  margin-bottom: 24px;
+}
+
+label{
+  display: block;
+  margin-bottom: 8px;
+  color: var(--Dim-Gray);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: var(--Text);
+}
+
+.form div input{
+  width: 100%;
+  padding: 12px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: var(--Silver);
+}
+
+.form div input:hover{
+  background: var(--Dim-Gray);
+}
+
+button{
+  background: var(--Turquoise);
+  margin-top: 64px;
+  border: 1px solid var(--Black);
+  margin-inline: auto;
+  outline: none;
+  padding: 16px 54px;
+  display: flex;
+  color: var(--Black);
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  font-family: var(--Headline);
+  margin-bottom: 16px;
+}
+
+span{
+  font-family: var(--Text);
+  font-weight: 400;
+  font-size: 13px;
+  color: var(--Black);
+}
+
+footer{
+  background: var(--Silver);
+  padding-block: 32px;
+}
+
+footer p{
+  font-weight: 400;
+  font-size: 15px;
+  font-family: var(--Text);
+  color: var(--Black);
+}
