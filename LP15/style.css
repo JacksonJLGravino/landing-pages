@@ -1,0 +1,206 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --Silver: #B9B9B9;
+  --Davys-Gray: #585858;
+  --Black: #000000;
+  --Sandy-Brown: #FAAC64;
+  --Azure-Web: #E9FCFF;
+  --Headline: 'Advent Pro', sans-serif;
+  --Text: 'Catamaran', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+header{
+  background: var(--Azure-Web);
+  border-bottom: 3px solid var(--Sandy-Brown);
+}
+
+.logo{
+  max-width: 1120px;
+  display: flex;
+  margin-inline: auto;
+  padding: 8px;
+  flex-direction: column;
+}
+
+.logo a{
+  color: var(--Black);
+  font-family: var(--Headline);
+  font-size: 64px;
+  font-weight: 700;
+}
+
+main{
+  background: linear-gradient(116.33deg, var(--Sandy-Brown) 0%, var(--Azure-Web) 100%);
+}
+
+.center{
+  max-width: 1120px;
+  display: flex;
+  margin-inline: auto;
+  padding: 80px 8px 0px 8px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-header-img{
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.section-header-img > div{
+  max-width: 160px;
+  text-align: center;
+}
+
+.section-header-img p{
+  margin-top: 8px;
+  font-family: var(--Text);
+  color: var(--Black);
+  font-size: 14px;
+}
+
+.section-header-text{
+  max-width: 448px;
+  border-left: 1px solid var(--Davys-Gray);
+  padding: 60px 0px 60px 16px;
+}
+
+.section-header-text h6{
+  font-family: var(--Headline);
+  font-size: 18px;
+  color: var(--Black);
+  font-weight: 700;
+}
+
+.info{
+  max-width: 544px;
+}
+
+.info p{
+  font-family: var(--Text);
+  color: var(--Black);
+  font-size: 16px;
+}
+
+.info h6{
+  font-family: var(--Headline);
+  font-size: 18px;
+  color: var(--Black);
+  font-weight: 700;
+  margin-block: 32px;
+}
+
+.info span{
+  font-family: var(--Headline);
+  font-size: 18px;
+  color: var(--Black);
+  font-weight: 700;
+}
+
+ul li{
+  list-style-position: inside;
+  list-style-type: none;
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: var(--Text);
+  margin-left: 64px;
+}
+
+.form{
+  border: 3px solid var(--Davys-Gray);
+  background: var(--Azure-Web);
+  max-width: 448px;
+}
+
+.form-header{
+  background: var(--Sandy-Brown);
+  padding: 32px 96px;
+}
+
+.form-header h5{
+  font-family: var(--Headline);
+  color: var(--Azure-Web);
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+form{
+  padding: 48px 16px;
+}
+
+label{
+  display: block;
+  font-family: var(--Text);
+  color: var(--Black);
+  font-size: 16px;
+}
+
+input{
+  padding: 12px;
+  width: 100%;
+  margin-bottom: 24px;
+  background: var(--Silver);
+  outline: none;
+  border: none;
+}
+
+input:hover{
+  background: var(--Davys-Gray);
+}
+
+button{
+  margin-block: 24px;
+  display: flex;
+  margin-inline: auto;
+  padding: 16px 32px;
+  background: var(--Sandy-Brown);
+  color: var(--Black);
+  border: 1px solid var(--Davys-Gray);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  font-family: var(--Headline);
+}
+
+button:hover{
+  border-color: var(--Black);
+  color: var(--Davys-Gray);
+}
+
+.section-2{
+  padding-bottom: 80px;
+}
+
+footer{
+  border-top: 3px solid var(--Sandy-Brown);
+  background: var(--Azure-Web);
+  padding-block: 32px;
+}
+
+.logo p{
+  font-family: var(--Text);
+  color: var(--Black);
+  font-size: 14px;
+  margin-top: 24px;
+}
+
+@media screen and (max-width: 1010px){
+  .center{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 42px;
+  }
+}
