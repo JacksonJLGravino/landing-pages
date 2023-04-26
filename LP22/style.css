@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --Silver: #BFBBBC;
+  --Rose-Taupe: #86676F;
+  --Rose-Ebony: #5E484A;
+  --Indian-Red: #CA6869;
+  --Mint-Cream: #DFF0EA;
+  --Headline: 'Varela Round', sans-serif;
+  --Text: 'Oswald', sans-serif;
+}
+
+main{
+  background: var(--Rose-Ebony);
+}
+
+.center{
+  max-width: 1132px;
+  margin-inline: auto;
+  padding-inline: 6px;
+}
+
+header{
+  padding-top: 32px;
+}
+
+header a{
+  text-decoration: none;
+  color: var(--Indian-Red);
+  font-family: var(--Headline);
+  font-weight: 400;
+  font-size: 64px;
+}
+
+.sec-1{
+  padding-block: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+}
+
+.info{
+  max-width: 640px;
+}
+
+.info h2{
+  max-width: 352px;
+  color: var(--Mint-Cream);
+  font-family: var(--Headline);
+  font-weight: 400;
+  font-size: 48px;
+  text-align: center;
+  margin-inline: auto;
+  margin-bottom: 24px;
+}
+
+.info p{
+  padding-top: 24px;
+  color: var(--Mint-Cream);
+  font-family: var(--Text);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.form{
+  background: var(--Mint-Cream);
+  border-radius: 8px;
+  padding: 32px 16px;
+  width: 448px;
+}
+
+.form h4{
+  color: var(--Rose-Ebony);
+  font-family: var(--Headline);
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.form p{
+  text-align: center;
+  color: var(--Rose-Ebony);
+  font-family: var(--Text);
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 32px;
+}
+
+form div{
+  margin-top: 16px;
+}
+
+.input label{
+  display: block;
+}
+
+label{
+  font-family: var(--Text);
+  color: var(--Rose-Ebony);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.input input{
+  padding: 12px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background: var(--Rose-Taupe);
+  width: 100%;
+}
+
+.input input:hover{
+  background: var(--Silver);
+}
+
+button{
+  margin-top: 32px;
+  cursor: pointer;
+  color: var(--Mint-Cream);
+  font-family: var(--Headline);
+  font-weight: 400;
+  font-size: 24px;
+  background: var(--Indian-Red);
+  border: none;
+  outline: none;
+  display: flex;
+  margin-inline: auto;
+  padding: 12px 80px;
+  border-radius: 8px;
+}
+
+button:hover{
+  background: var(--Rose-Taupe);
+}
+
+.about-me{
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  padding-bottom: 80px;
+  padding-top: 32px;
+}
+
+.about-me img{
+  border-radius: 50%;
+  border: 2px solid var(--Mint-Cream);
+  width: 240px;
+  height: 240px;
+}
+
+.about-me p{
+  font-family: var(--Text);
+  color: var(--Mint-Cream);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+footer{
+  background: var(--Silver);
+}
+
+footer div{
+  padding-block: 32px;
+}
+
+footer p{
+  font-family: var(--Text);
+  color: var(--Rose-Ebony);
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 640px){
+  .about-me{
+    flex-direction: column;
+  }
+}
