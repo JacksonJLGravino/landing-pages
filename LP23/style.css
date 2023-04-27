@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --Silver: #B9B9B9;
+  --Slate-Gray: #748795;
+  --English-Violet: #443752;
+  --Lapis-Lazuli: #2C5F7C;
+  --Seasalt: #FAFAFA;
+  --Headline: 'Roboto', sans-serif;
+  --Text: 'Enriqueta', serif;
+}
+
+main{
+  background-image: url('/img/fundo.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.center{
+  max-width: 1132px;
+  margin-inline: auto;
+  padding-inline: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+}
+
+header{
+  margin-top: 80px;
+}
+
+header a{
+  font-family: var(--Headline);
+  color: var(--Seasalt);
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 64px;
+}
+
+.info{
+  max-width: 640px;
+}
+
+.title-1{
+  margin-top: 68px;
+}
+
+.title-2{
+  margin-bottom: 68px;
+}
+
+h3{
+  font-family: var(--Headline);
+  color: var(--Seasalt);
+  font-weight: 300;
+  font-size: 36px;
+}
+
+.info p{
+  font-family: var(--Text);
+  color: var(--Seasalt);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.form{
+  background: var(--Lapis-Lazuli);
+  width: 448px;
+  padding-inline: 16px;
+}
+
+.form h2{
+  margin-top: 160px;
+  text-align: center;
+  font-family: var(--Headline);
+  font-weight: 300;
+  font-size: 48px;
+  color: var(--Seasalt);
+  margin-bottom: 48px;
+}
+
+form label{
+  display: block;
+  font-family: var(--Text);
+  color: var(--Seasalt);
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+form input{
+  padding: 12px;
+  width: 100%;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: var(--Seasalt);
+}
+
+form input:hover{
+  background: var(--Silver);
+}
+
+button{
+  margin-block: 48px;
+  background: var(--English-Violet);
+  border-radius: 8px;
+  border: 1px solid var(--Seasalt);
+  font-family: var(--Headline);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  color: var(--Seasalt);
+  display: flex;
+  margin-inline: auto;
+  padding: 16px 50px;
+  cursor: pointer;
+}
+
+button:hover{
+  color: var(--Silver);
+  border-color: var(--Silver);
+}
+
+footer{
+  background: var(--Slate-Gray);
+  border-block: 5px solid var(--Lapis-Lazuli);
+  padding-block: 32px;
+}
+
+footer a{
+  text-align: center;
+  color: var(--English-Violet);
+  font-family: var(--Headline);
+  font-weight: 300;
+  font-size: 48px;
+}
+
+
+@media screen and (max-width: 1132px){
+  .form h2{
+    margin-top: 80px;
+  }
+}
