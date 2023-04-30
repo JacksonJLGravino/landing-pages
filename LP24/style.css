@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --French-Gray: #C4C1CC;
+  --English-Violet: #5D556C;
+  --Russian-Violet: #3A2769;
+  --Tiffany-Blue: #9ADEE1;
+  --Azure: #E4F6F6;
+  --Headline: 'Josefin Slab', serif;
+  --Text: 'Raleway', sans-serif;
+}
+
+
+body{
+  background: var(--Azure);
+}
+
+header{
+  padding-block: 16px;
+  text-align: center;
+}
+
+header a{
+  text-decoration: none;
+  font-family: var(--Headline);
+  font-weight: 700;
+  font-size: 64px;
+  color: var(--Russian-Violet);
+}
+
+.sec-1{
+  background: var(--English-Violet);
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 288px;
+  display: flex;
+  justify-content: center;
+}
+
+.sec-1 h2{
+  max-width: 928px;
+  padding-inline: 8px;
+  color: var(--Azure);
+  font-family: var(--Headline);
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.form{
+  background: var(--Azure);
+  display: flex;
+}
+
+form{
+  position: relative;
+  top: -214px;
+  background: var(--Azure);
+  border: 3px solid var(--Tiffany-Blue);
+  max-width: 544px;
+  margin-inline: auto;
+  padding: 40px 16px 80px 16px;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+}
+
+.label-1{
+  display: block;
+  margin-bottom: 8px;
+  font-family: var(--Text);
+  color: var(--Russian-Violet);
+  font-size: 14px;
+}
+
+.form-text input{
+  padding: 12px;
+  margin-bottom: 16px;
+  width: 100%;
+  background: var(--French-Gray);
+  border: none;
+}
+
+.form-text input:hover{
+  background: var(--English-Violet);
+}
+
+.form-radio-content{
+  margin-bottom: 16px;
+}
+
+.radio-area-content{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.radio-area-content > div{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.radio-area-content input{
+  cursor: pointer;
+}
+
+.label-2{
+  font-family: var(--Text);
+  color: var(--Russian-Violet);
+  font-size: 14px;
+}
+
+textarea{
+  resize: none;
+  width: 100%;
+  padding: 12px;
+  background: var(--French-Gray);
+  border: none;
+  height: 96px;
+  margin-bottom: 48px;
+}
+
+button{
+  display: flex;
+  margin-inline: auto;
+  cursor: pointer;
+  background: var(--Russian-Violet);
+  outline: none;
+  border: none;
+  color: var(--Azure);
+  padding: 16px 32px;
+  font-family: var(--Headline);
+  font-weight: 700;
+  font-size: 24px;
+}
+
+button:hover{
+  color: var(--Russian-Violet);
+  background: var(--Tiffany-Blue);
+}
+
+.form p{
+  text-align: center;
+  margin-top: 16px;
+  color: var(--Russian-Violet);
+  font-family: var(--Text);
+  font-size: 12px;
+}
