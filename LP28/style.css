@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --Taupe-Gray: #9B979C;
+  --Wenge: #5A535D;
+  --Dark-Purple: #2B1F31;
+  --Verdigris: #5FB9B0;
+  --Ivory: #FFFDE9;
+  --Headline: 'Chau Philomene One', sans-serif;
+  --Text: 'Work Sans', sans-serif;
+}
+
+body{
+  background: var(--Wenge);
+}
+
+section{
+  margin-block: 128px;
+  margin-inline: auto;
+  padding: 32px;
+  border-radius: 8px;
+  background: var(--Ivory);
+  width: 544px;
+}
+
+header{
+  padding-inline: 16px;
+  background: var(--Dark-Purple);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a{
+  text-decoration: none;
+  font-family: var(--Headline);
+  color: var(--Verdigris);
+  font-weight: 400;
+  font-size: 64px;
+}
+
+.info h2{
+  margin-top: 80px;
+  margin-bottom: 16px;
+  font-family: var(--Headline);
+  color: var(--Wenge);
+  font-weight: 400;
+  font-size: 48px;
+  text-align: center;
+}
+
+.info p{
+  text-align: center;
+  margin-bottom: 64px;
+  font-family: var(--Text);
+  color: var(--Dark-Purple);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.info p span{
+  font-family: var(--Headline);
+}
+
+form label{
+  display: block;
+  margin-bottom: 4px;
+  font-family: var(--Text);
+  color: var(--Dark-Purple);
+  font-weight: 400;
+  font-size: 15px;
+}
+
+form input{
+  margin-bottom: 24px;
+  background: var(--Dark-Purple);
+  border-radius: 4px;
+  width: 100%;
+  color: var(--Ivory);
+  padding: 12px;
+  border-radius: none;
+}
+
+button{
+  display: flex;
+  margin-inline: auto;
+  margin-top: 40px;
+  background: var(--Verdigris);
+  padding: 16px 62px;
+  border: none;
+  border-radius: 4px;
+  color: var(--Dark-Purple);
+  font-family: var(--Headline);
+  font-weight: 400;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+button:hover{
+  color: var(--Verdigris);
+  background: var(--Dark-Purple);
+}
+
+.text-footer{
+  margin-top: 8px;
+  color: var(--Taupe-Gray);
+  font-family: var(--Text);
+  font-weight: 400;
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 48px;
+}
