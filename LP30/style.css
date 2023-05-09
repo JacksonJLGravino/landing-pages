@@ -1,0 +1,187 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+}
+
+:root{
+  --Silver: #B7B7B7;
+  --Gray: #797979;
+  --Paynes-Gray: #346473;
+  --Yellow-Green: #9BDF46;
+  --Seasalt: #F9F9F9;
+  --Headerline: 'Bowlby One', cursive;
+  --Text: 'Catamaran', sans-serif;
+}
+
+.sec-1{
+  background: url('/img/img-1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.center-1{
+  max-width: 1132px;
+  margin-inline: auto;
+  padding-inline: 6px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.info{
+  max-width: 640px;
+  color: var(--Seasalt);
+}
+
+.info h2{
+  font-family: var(--Headerline);
+  font-size: 48px;
+  margin-block: 32px;
+}
+
+.info h5{
+  font-family: var(--Headerline);
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.info p{
+  font-family: var(--Text);
+  font-size: 18px;
+}
+
+.form{
+  width: 448px;
+  background: var(--Yellow-Green);
+  padding: 80px 16px;
+}
+.form h4{
+  font-family: var(--Headerline);
+  color: var(--Paynes-Gray);
+  margin-bottom: 32px;
+  text-align: center;
+  font-size: 30px;
+}
+
+form label{
+  display: block;
+  color: var(--Paynes-Gray);
+  font-family: var(--Text);
+  font-size: 18px;
+}
+
+form input{
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  outline: none;
+  border: none;
+  background: var(--Seasalt);
+}
+
+form input:hover{
+  background: var(--Silver);
+}
+
+form button{
+  display: flex;
+  margin-inline: auto;
+  margin-top: 80px;
+}
+
+button{
+  background: var(--Paynes-Gray);
+  outline: none;
+  border: none;
+  padding: 16px 32px;
+  font-family: var(--Headerline);
+  color: var(--Seasalt);
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button:hover{
+  background: var(--Silver);
+  color: var(--Paynes-Gray);
+}
+
+.sec-2{
+  background: var(--Seasalt);
+}
+
+.center-2{
+  padding-block: 120px;
+  max-width: 1132px;
+  margin-inline: auto;
+  padding-inline: 6px;
+}
+
+.sec-2 strong{
+  display: block;
+  text-align: center;
+  font-family: var(--Headerline);
+  color: var(--Paynes-Gray);
+  font-size: 14px;
+  letter-spacing: 1.5px;
+}
+
+.line{
+  background: var(--Paynes-Gray);
+  height: 8px;
+  width: 208px;
+  margin-inline: auto;
+  margin-top: 8px;
+  border-radius: 4px;
+}
+
+.cards{
+  margin-top: 80px;
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card{
+  max-width: 352px;
+  padding: 32px 16px;
+  border: 2px solid var(--Gray);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-header{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.card-header h6{
+  color: var(--Paynes-Gray);
+  font-family: var(--Headerline);
+  font-size: 18px;
+}
+
+.card p{
+  margin-top: 16px;
+  margin-bottom: 24px;
+  font-family: var(--Text);
+  color: var(--Paynes-Gray);
+}
+
+footer{
+  background: var(--Gray);
+  padding-block: 32px;
+  text-align: center;
+}
+
+footer p{
+  color: var(--Seasalt);
+  font-size: 18px;
+  font-family: var(--Text);
+}
