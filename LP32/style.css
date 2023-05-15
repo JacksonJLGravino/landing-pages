@@ -1,0 +1,286 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --Silver: #B2B2B2;
+  --Gray: #797979;
+  --Persian-Indigo: #3E1E68;
+  --Melon: #FFACAC;
+  --Seasalt: #F9F9F9;
+  --Headline: 'Carter One', cursive;
+  --Text: 'Inter', sans-serif;
+}
+
+.sec-1{
+  background: url('/img/background1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.center{
+  max-width: 1132px;
+  padding-inline: 6px;
+  margin-inline: auto;
+}
+
+header{
+  padding-top: 48px;
+  padding-bottom: 64px;
+}
+
+header a{
+  text-decoration: none;
+  font-family: var(--Headline);
+  color: var(--Seasalt);
+  font-weight: 400;
+  font-size: 64px;
+}
+
+
+.sec-1-flex{
+  display: flex;
+  justify-content: center;
+  gap: 128px;
+  flex-wrap: wrap;
+  padding-bottom: 160px;
+}
+
+.info{
+  width: 544px;
+}
+
+.info h2{
+  font-family: var(--Headline);
+  color: var(--Seasalt);
+  font-weight: 400;
+  font-size: 48px;
+  margin-bottom: 64px;
+}
+
+.info h3{
+  font-family: var(--Headline);
+  color: var(--Seasalt);
+  font-weight: 400;
+  font-size: 36px;
+  margin-bottom: 48px;
+}
+
+.info h4{
+  font-family: var(--Headline);
+  color: var(--Seasalt);
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 32px;
+}
+
+.info p{
+  font-family: var(--Text);
+  color: var(--Seasalt);
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+
+.form{
+  background: var(--Melon);
+  width: 448px;
+  padding: 32px 16px 64px 16px;
+}
+
+.form h6{
+  font-family: var(--Headline);
+  color: var(--Persian-Indigo);
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+form label{
+  display: block;
+  font-family: var(--Text);
+  color: var(--Persian-Indigo);
+  margin-bottom: 4px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+form input{
+  padding: 12px;
+  width: 100%;
+  margin-bottom: 16px;
+  border: none;
+  outline: none;
+  background: var(--Seasalt);
+}
+
+form input:hover{
+  background: var(--Silver);
+}
+
+button{
+  font-family: var(--Headline);
+  font-weight: 400;
+  font-size: 18px;
+  padding: 16px 44px;
+  margin-top: 64px;
+  display: flex;
+  margin-inline: auto;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+form button{
+  background: var(--Persian-Indigo);
+  color: var(--Seasalt);
+}
+
+form button:hover{
+  background: var(--Seasalt);
+  color: var(--Persian-Indigo);
+}
+
+.sec-2{
+  background: var(--Seasalt);
+  padding-block: 128px;
+}
+
+.sec-2-header{
+  text-align: center;
+}
+
+.sec-2-header strong{
+  font-family: var(--Headline);
+  color: var(--Persian-Indigo);
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+}
+
+.line{
+  width: 352px;
+  height: 8px;
+  border-radius: 4px;
+  background: var(--Persian-Indigo);
+  margin-inline: auto;
+  margin-top: 16px;
+}
+
+.sobre{
+  margin-top: 48px;
+}
+
+.sobre p{
+  font-family: var(--Text);
+  color: var(--Gray);
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 16px;
+}
+
+.sobre p span{
+  color: var(--Persian-Indigo);
+}
+
+.detalhes{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 48px;
+  margin-bottom: 64px;
+  gap: 32px;
+  justify-content: center;
+}
+
+.detalhes div{
+  max-width: 544px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.detalhes p{
+  font-family: var(--Text);
+  color: var(--Gray);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.persons{
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.persons > div{
+  max-width: 544px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.persons img{
+  border-radius: 50%;
+}
+
+.persons h5{
+  margin-top: 16px;
+  font-family: var(--Headline);
+  color: var(--Persian-Indigo);
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.persons p{
+  margin-top: 32px;
+  color: var(--Gray);
+  font-family: var(--Text);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.sec-3{
+  background: url('/img/background2.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding-block: 80px;
+}
+
+.sec-3 h5{
+  font-family: var(--Headline);
+  color: var(--Seasalt);
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+
+.sec-3 button{
+  background: var(--Melon);
+  color: var(--Persian-Indigo);
+}
+
+.sec-3 button:hover{
+  background: var(--Seasalt);
+}
+
+footer{
+  background: var(--Silver);
+  text-align: center;
+  padding-block: 32px;
+  border-top: 10px solid var(--Seasalt);
+}
+
+footer p{
+  font-family: var(--Text);
+  color: var(--Persian-Indigo);
+  font-weight: 400;
+  font-size: 14px;
+}
