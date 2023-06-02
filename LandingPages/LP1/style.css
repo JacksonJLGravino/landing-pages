@@ -1,27 +1,27 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-:root{
-  --Gray-X-11-Gray: #B9B9B9;
-  --Granite-Gray: #5F5F5F;
+:root {
+  --Gray-X-11-Gray: #b9b9b9;
+  --Granite-Gray: #5f5f5f;
   --Earie-Black: #262626;
-  --Little-Boy-Blue: #7FA6F5;
-  --Azure-X-11-Web-Color: #F0FAFB;
+  --Little-Boy-Blue: #7fa6f5;
+  --Azure-X-11-Web-Color: #f0fafb;
 
   --Headline: 'Montserrat', sans-serif;
   --Text: 'PT Serif', serif;
 }
 
-body{
+body {
   background: var(--Azure-X-11-Web-Color);
 }
 
-.top{
+.top {
   padding-top: 80px;
-  background-image: url(/img/fundo.jpg);
+  background-image: url('./img/fundo.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -29,7 +29,7 @@ body{
   justify-content: center;
 }
 
-.top > div{
+.top > div {
   width: 1120px;
   display: flex;
   justify-content: space-between;
@@ -37,13 +37,13 @@ body{
   flex-wrap: wrap;
 }
 
-.info{
+.info {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.logo{
+.logo {
   padding: 0px 124px;
   border: 1px dotted var(--Azure-X-11-Web-Color);
   color: var(--Azure-X-11-Web-Color);
@@ -55,7 +55,7 @@ body{
   font-family: var(--Headline);
 }
 
-h2{
+h2 {
   font-family: var(--Headline);
   color: var(--Little-Boy-Blue);
   margin-top: 60px;
@@ -63,7 +63,7 @@ h2{
   font-size: 48px;
 }
 
-.presentation{
+.presentation {
   color: var(--Azure-X-11-Web-Color);
   font-family: var(--Text);
   font-size: 16px;
@@ -71,44 +71,44 @@ h2{
   max-width: 448px;
 }
 
-.one{
+.one {
   margin-top: 64px;
 }
 
-.two{
+.two {
   margin-top: 40px;
 }
 
-.form{
+.form {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 16px;
 }
 
-.form h6{
+.form h6 {
   font-family: var(--Headline);
   font-size: 18px;
   font-weight: 700;
   color: var(--Azure-X-11-Web-Color);
 }
 
-.form h6 span{
+.form h6 span {
   color: var(--Little-Boy-Blue);
 }
 
-form{
+form {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-form > div{
+form > div {
   display: flex;
   flex-direction: column;
 }
 
-input{
+input {
   background: none;
   border-width: 0px 0px 2px 2px;
   border-style: solid;
@@ -116,28 +116,29 @@ input{
   width: 448px;
   padding: 12px;
   outline: none;
-  color: var(--Azure-X-11-Web-Color)
+  color: var(--Azure-X-11-Web-Color);
 }
 
-input:focus{
+input:focus {
   border-color: var(--Gray-X-11-Gray);
-  color: var(--Gray-X-11-Gray)
+  color: var(--Gray-X-11-Gray);
 }
 
-.name-form{
+.name-form {
   margin-top: 48px;
 }
 
-.email-form, .tel-form{
+.email-form,
+.tel-form {
   margin-top: 24px;
 }
 
-label{
+label {
   color: var(--Azure-X-11-Web-Color);
   margin-bottom: 8px;
 }
 
-.btn{
+.btn {
   width: 270px;
   padding: 25px 30px;
   background: var(--Little-Boy-Blue);
@@ -149,11 +150,11 @@ label{
   color: var(--Earie-Black);
 }
 
-.btn:hover{
+.btn:hover {
   outline: 2px solid var(--Gray-X-11-Gray);
 }
 
-.middle{
+.middle {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -162,14 +163,14 @@ label{
   color: var(--Earie-Black);
 }
 
-strong{
+strong {
   font-family: var(--Headline);
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 1.5px;
 }
 
-.cards{
+.cards {
   display: flex;
   max-width: 1120px;
   gap: 32px;
@@ -179,41 +180,41 @@ strong{
   justify-content: center;
 }
 
-.card{
+.card {
   width: 352px;
   display: flex;
   flex-direction: column;
   align-items: center;
   border-width: 0px 0px 2px 2px;
   border-style: solid;
-  border-color: #5F5F5F;
+  border-color: #5f5f5f;
 }
 
-.card i{
+.card i {
   font-size: 64px;
   margin-top: 32px;
 }
 
-.card p{
+.card p {
   padding: 54px 16px 34px 16px;
   text-align: center;
   font-size: 20px;
   font-family: var(--Text);
 }
 
-footer{
+footer {
   background: var(--Little-Boy-Blue);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-footer > div{
+footer > div {
   padding-block: 80px;
   width: 1120px;
 }
 
-.logo-2{
+.logo-2 {
   padding: 17px 120px;
   border: 1px dotted var(--Earie-Black);
   color: var(--Earie-Black);
@@ -223,7 +224,7 @@ footer > div{
   max-width: 352px;
 }
 
-footer p{
+footer p {
   margin-top: 48px;
   color: var(--Earie-Black);
   font-size: 16px;
@@ -231,11 +232,11 @@ footer p{
 }
 
 @media screen and (max-width: 960px) {
-  .top > div{
+  .top > div {
     justify-content: center;
   }
 
-  .form{
+  .form {
     margin-top: 64px;
   }
 }
